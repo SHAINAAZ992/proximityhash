@@ -1,0 +1,14 @@
+{
+  "name": "proximityhash",
+  "version": "1.0.0",
+  "description": "ProximityHash: Geohashes in Proximity (with the option of compression using Georaptor)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shainaaz Mohammed <shainaazmohammed@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "ngeohash": "^0.6.0"
+  }
+}
