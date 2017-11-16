@@ -1,6 +1,7 @@
 "use strict";
 
 const geohash = require('ngeohash');
+const georaptor = require('georaptor');
 
 function inCircleCheck(latitude, longitude, centre_lat, centre_lon, radius) {
     let x_diff = longitude - centre_lon;
