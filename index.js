@@ -1,7 +1,6 @@
 "use strict";
 
 const geohash = require('ngeohash');
-const georaptor = require('/Users/cepl/Documents/codes/georaptor');
 
 function inCircleCheck(latitude, longitude, centre_lat, centre_lon, radius) {
     let x_diff = longitude - centre_lon;
@@ -35,7 +34,7 @@ function convertToLatlon(y, x, latitude, longitude) {
     return [final_lat, final_lon];
 }
 
-exports.createGeohash = function (options) {
+exports.createGeohashes = function (options) {
     let latitude = options.latitude;
     let longitude = options.longitude;
     let radius = options.radius;
