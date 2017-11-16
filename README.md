@@ -1,6 +1,4 @@
-# proximityhash
-
-ProximityHash: Geohashes in Proximity (with the option of compression using Georaptor_)
+ProximityHash: Geohashes in Proximity (with the option of compression using Georaptor)
 =======================================================================================
 
 Geohash is a geocoding system invented by Gustavo Niemeyer and placed into the public domain. It is a hierarchical
@@ -15,7 +13,7 @@ speed and performance.
 
 ## Credits
 
-.. _GeoRaptor: https://github.com/ashwin711/georaptor
+    https://github.com/ashwin711/proximityhash
 
 
 ## Installation
@@ -42,7 +40,8 @@ var options = {
     approxHashCount : true (set to true to round off if the hashes count is greater than 27)
 }
 
-proximityhash.createGeohashes(options);
+let geohashes = proximityhash.createGeohashes(options);
+
 ```
 
 
