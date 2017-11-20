@@ -30,14 +30,14 @@ npm install proximityhash
 var proximityhash = require('proximityhash');
 
 var options = {
-    latitude : 12.918126, (required)
-    longitude : 77.630239,(required)
-    radius : 2000,( in mts) (required)
-    precision : 7, (geohash precision level) (required)
-    georaptorFlag : true (set true to compress hashes using georaptor),
-    minlevel : 1, (minimum geohash level, default value: 1)
-    maxlevel : 12, (maximum geohash level, default value: 12)
-    approxHashCount : true (set to true to round off if the hashes count is greater than 27)
+    latitude : 12.918126, //required
+    longitude : 77.630239,//required
+    radius : 2000,// in mts, required
+    precision : 7,// geohash precision level , required
+    georaptorFlag : true,  //set true to compress hashes using georaptor
+    minlevel : 1, // minimum geohash level, default value: 1
+    maxlevel : 12, // maximum geohash level, default value: 12
+    approxHashCount : true // set to true to round off if the hashes count is greater than 27
 }
 
 let geohashes = proximityhash.createGeohashes(options);
